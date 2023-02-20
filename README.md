@@ -2,7 +2,7 @@
 The effects of mutations on serum antibody binding to the RBD from the B.1.351 (Beta) SARS-CoV-2 variant.
 These sera are from mice vaccinated with a mosaic-8 or homotypic Beta RBD nanoparticle vaccine (or other formulations).
 
-Design and experiments by Alex Cohen of Pamela Bjorkman's lab, with analysis by Allie Greaney and [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), and co-authors.
+Design and experiments by Alex Cohen of Pamela Bjorkman's lab, with analysis by Allie Greaney and [Jesse Bloom](https://research.fhcrc.org/bloom/en.html).
 
 Vaccine was first described in this paper: [Cohen, et al. _Science_ (2021)](https://www.science.org/doi/10.1126/science.abf6840).
 
