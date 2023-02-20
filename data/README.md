@@ -13,14 +13,7 @@ These files are used for the basic processing of the deep sequencing data to cal
 
 ## Files related to processing NGS sequencing data
 
-  - [PacBio_amplicons.gb](PacBio_amplicons.gb): the amplicons being sequenced by PacBio.
-    Note that there are a variety of possible amplicons because in addition to the SARS-CoV-2 RBD there are RBDs from a variety of other viral strains.
-
-  - [feature_parse_specs.yaml](feature_parse_specs.yaml): how to parse the amplicon when handling the PacBio data.
-
-  - [PacBio_runs.csv](PacBio_runs.csv): list of the PacBio runs used to call the variants.
-
-  - [barcode_runs.csv](barcode_runs.csv): list of the Illumina runs used to count the barcodes for different samples. This file is built from [barcode_runs_orig-names.csv](barcode_runs_orig-names.csv) by the Jupyter notebook [build_barcode_runs.ipynb](build_barcode_runs.ipynb).
+  - [barcode_runs.csv](barcode_runs.csv): list of the Illumina runs used to count the barcodes for different samples. 
 
   - [barcode_runs_helper_files](barcode_runs_helper_files): subdirectory containing auxillary notebooks and files to help generate the `barcode_runs.csv` file that maps sample names to file paths on the Hutch cluster.
 
@@ -44,15 +37,9 @@ These files are used for visualizing the antibody- or serum-escape data:
 
   - [escape_profiles_config.yaml](escape_profiles_config.yaml): Information on how to plot the escape profiles; manually edit this to alter their plotting.
 
-  - [early2020_escape_profiles_config.yaml](early2020_escape_profiles_config.yaml): Same as above, but for early 2020 plasmas mapped against the Wuhan-Hu-1 RBD library.
-
   - [lineplots_config.yaml](lineplots_config.yaml): Config file for making line plots to compare serum-escape scores between cohorts.
 
   - [dms-view_metadata.md](dms-view_metadata.md): Used for rendering the dms-view page to visualize data.
-
-## Input data from previous studies
-
-  - [final_variant_scores.csv](final_variant_scores.csv): Comprehensive measurement of RBD expression and ACE2 binding as determined by deep mutational scanning experiments in a site-saturation single-mutant library in the B.1.351 RBD background similar to those described in [Starr, et al. (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7418704/). These scores are used to filter variants that are highly deleterious for ACE2 binding or RBD expression before calculation of antibody-escape scores in the [counts_to_scores.ipynb](counts_to_scores.ipynb) notebook.
 
 ## Data from GISAID surveillance
 
