@@ -1,0 +1,9 @@
+date,experiment,library,antibody,concentration,sort_bin,selection,sample,experiment_type,number_cells,frac_escape,R1,prefix,NFbp
+230212,beta_1-3,lib1,none,0,ref,reference,beta_1-3-none-0-ref,ab_selection,,,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/beta_1-3_lib1*R1*.fastq.gz,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/,NF8bp_7-10
+230212,beta_1-3,lib2,none,0,ref,reference,beta_1-3-none-0-ref,ab_selection,,,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/beta_1-3_lib2*R1*.fastq.gz,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/,NF8bp_11-14
+230212,beta_1,lib1,Mosaic-8b,3125,abneg,escape,beta_1-Mosaic-8b-3125-abneg,ab_selection,139654,0.007994814,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/beta_1_lib1*R1*.fastq.gz,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/,NF8bp_1
+230212,beta_1,lib2,Mosaic-8b,3125,abneg,escape,beta_1-Mosaic-8b-3125-abneg,ab_selection,136786,0.014452856,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/beta_1_lib2*R1*.fastq.gz,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/,NF8bp_2
+230212,beta_2,lib1,Admix-8b,3125,abneg,escape,beta_2-Admix-8b-3125-abneg,ab_selection,89389,0.028449502,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/beta_2_lib1*R1*.fastq.gz,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/,NF8bp_3
+230212,beta_2,lib2,Admix-8b,3125,abneg,escape,beta_2-Admix-8b-3125-abneg,ab_selection,138196,0.028217481,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/beta_2_lib2*R1*.fastq.gz,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/,NF8bp_4
+230212,beta_3,lib1,HS2B,3125,abneg,escape,beta_3-HS2B-3125-abneg,ab_selection,174529,0.048819916,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/beta_3_lib1*R1*.fastq.gz,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/,NF8bp_15
+230212,beta_3,lib2,HS2B,3125,abneg,escape,beta_3-HS2B-3125-abneg,ab_selection,170310,0.039014374,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/beta_3_lib2*R1*.fastq.gz,/fh/fast/bloom_j/SR/ngs/illumina_bjorkman/,NF8bp_6
